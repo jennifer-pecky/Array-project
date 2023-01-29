@@ -71,23 +71,25 @@ console.log(People);
 
 let Num = [1, 2, 3, 4, 5]
 
+
+// Map method
 let arraymap = Num.map((Number) => {
     return Number * Number
 })
 
 console.log(arraymap);
 
-
+// Concat method
 let ascend = Num.concat(arraymap)
 
 console.log(ascend);
 
-
+// sort method
 let sortedNum = ascend.sort((a, b) => a - b)
 
 console.log(sortedNum);
 
-
+// Reduce method
 let Total = sortedNum.reduce((a, b) => a + b
 );
 console.log(Total);
